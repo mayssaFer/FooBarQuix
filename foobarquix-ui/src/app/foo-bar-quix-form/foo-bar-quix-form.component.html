@@ -1,0 +1,15 @@
+<div class=container>
+
+<form [formGroup]="fooBarQuixForm" (ngSubmit)="convertNumber()" class="form">
+  <label class="form__label">
+    Number to convert :
+    <input type="number" formControlName="number" class="form__input">
+    <div *ngIf="fooBarQuixForm.get('number').invalid && (fooBarQuixForm.get('number').dirty || fooBarQuixForm.get('number').touched)" class="form__error">
+      <div *ngIf="fooBarQuixForm.get('number').errors.required">Number is required</div>
+    </div>
+  </label>
+ <div class=div_button><button type="submit" [disabled]="fooBarQuixForm.invalid" class="form__button">Convert</button>
+ </div>
+</form>
+
+</div>

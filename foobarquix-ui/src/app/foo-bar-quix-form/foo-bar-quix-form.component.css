@@ -1,0 +1,44 @@
+input, label {
+    display:block;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form__input {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+.form__error {
+  color: red;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.form__button {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.result {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.div_button{
+	 max-width: 32px;
+  height: 16px;
+}

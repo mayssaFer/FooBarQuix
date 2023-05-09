@@ -1,0 +1,8 @@
+foobarquix-back/*.iml
+foobarquix-back/target
+foobarquix-ui/node_modules
+.project
+.settings/
+foobarquix-back/bin/
+
+
